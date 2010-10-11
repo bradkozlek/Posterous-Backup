@@ -1,3 +1,13 @@
+# Copyright (C) 2010 Brad Kozlek
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License version as published by
+# the Free Software Foundation. http://www.gnu.org/licenses/gpl.html
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
 import os
 import urllib2
 import time
@@ -5,8 +15,8 @@ import re
 from xml.dom import minidom
 import sys
 
-#Change this to be your posterous hostname without the posterous.com at the end.
-MY_POSTEROUS_HOSTNAME = "bradkozlek"
+#Change this to be your posterous hostname without the .posterous.com at the end.
+MY_POSTEROUS_HOSTNAME = "put hostname here"
 #Change this to the path where you would like to store your backup.
 BACKUP_DIR_PATH = "backup"
 

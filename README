@@ -1,1 +1,25 @@
-This is the readme file.
+This is a simple python script to download all the posts and files hosted on a posterous site. 
+
+To use:
+
+* Download the python script and put it in a folder on your computer.
+* Edit the script and edit line 19 to contain your posterous hostname.
+* run the script : python posterous_backup.py
+* the script will create a folder named "backup" and place your data in this folder. 
+
+Each time the script runs, it will not re-download files that were downloaded previously.
+
+The posts are saved in the original XML supplied by the posterous API. If you want to move this data to another service then you would need another script to translate this data for you. 
+
+I created this script for my own use as a basic backup in case I ever want to migrate from posterous or if posterous closes shop one day. 
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version as published by
+the Free Software Foundation. http://www.gnu.org/licenses/gpl.html
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+
